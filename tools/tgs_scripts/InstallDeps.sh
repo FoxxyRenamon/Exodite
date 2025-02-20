@@ -47,3 +47,4 @@ if ! [ -x "$has_youtubedl" ]; then
 elif [ -x "$has_pip3" ]; then
 	echo "Ensuring youtube-dl is up-to-date with pip3..."
 	pip3 install youtube-dl -U
+fi
